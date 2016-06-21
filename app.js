@@ -1,5 +1,4 @@
-
-
+// Microsoft Bot based on Microsoft Bot Framework and Microsoft LUIS
 
 var builder = require('botbuilder');
 
