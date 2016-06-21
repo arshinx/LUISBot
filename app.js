@@ -9,8 +9,12 @@ var cortanaBot = new builder.TextBot();
 cortanaBot.add('/', dialog);
 
 // Add intent handlers
+/*
 dialog.on('builtin.intent.alarm.set_alarm', builder.DialogAction.send('Creating Alarm'));
 dialog.on('builtin.intent.alarm.delete_alarm', builder.DialogAction.send('Deleting Alarm'));
 dialog.onDefault(builder.DialogAction.send("I'm sorry I didn't understand. I can only create & delete alarms."));
+*/
+
+// Adding Alarm Functionality
 
 cortanaBot.listenStdin();
