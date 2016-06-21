@@ -1,0 +1,18 @@
+{
+  "name": "luisbot",
+  "version": "1.0.0",
+  "description": "Bot using LUIS ",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "keywords": [
+    "bot",
+    "luis"
+  ],
+  "author": "Arshin Jain",
+  "license": "ISC",
+  "dependencies": {
+    "botbuilder": "^1.0.1"
+  }
+}
